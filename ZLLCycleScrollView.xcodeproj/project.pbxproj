@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAA7EC81EFE6864000B69E7 /* ZLLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAA7EC71EFE6864000B69E7 /* ZLLCycleScrollView.m */; };
+		24844F9F1EF7B92000C23E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24844F9E1EF7B92000C23E08 /* main.m */; };
+		24844FA21EF7B92000C23E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24844FA11EF7B92000C23E08 /* AppDelegate.m */; };
+		24844FA81EF7B92000C23E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24844FA61EF7B92000C23E08 /* Main.storyboard */; };
+		24844FAA1EF7B92000C23E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24844FA91EF7B92000C23E08 /* Assets.xcassets */; };
+		24844FAD1EF7B92000C23E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24844FAB1EF7B92000C23E08 /* LaunchScreen.storyboard */; };
+		24844FB91EF7BC3F00C23E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24844FB81EF7BC3F00C23E08 /* ViewController.m */; };
+		24844FBB1EF7BECB00C23E08 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 24844FBA1EF7BECB00C23E08 /* placeholder.png */; };
+		24FFFDF11EFB767300D2DD70 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FFFDEE1EFB767300D2DD70 /* 0.png */; };
+		24FFFDF21EFB767300D2DD70 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FFFDEF1EFB767300D2DD70 /* 1.png */; };
+		24FFFDF31EFB767300D2DD70 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FFFDF01EFB767300D2DD70 /* 2.png */; };
+		24FFFDF51EFB767D00D2DD70 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FFFDF41EFB767D00D2DD70 /* 3.png */; };
+		527CCEC43558F3B1D2D7B334 /* libPods-ZLLCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA06AFB3A5D69D7A77A78F8E /* libPods-ZLLCycleScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CAA7EC61EFE6864000B69E7 /* ZLLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLCycleScrollView.h; sourceTree = "<group>"; };
+		1CAA7EC71EFE6864000B69E7 /* ZLLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLCycleScrollView.m; sourceTree = "<group>"; };
+		24844F9A1EF7B92000C23E08 /* ZLLCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLLCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24844F9E1EF7B92000C23E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24844FA01EF7B92000C23E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24844FA11EF7B92000C23E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24844FA71EF7B92000C23E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24844FA91EF7B92000C23E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24844FAC1EF7B92000C23E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24844FAE1EF7B92000C23E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24844FB71EF7BC3F00C23E08 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24844FB81EF7BC3F00C23E08 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24844FBA1EF7BECB00C23E08 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../placeholder.png; sourceTree = "<group>"; };
+		24FFFDEE1EFB767300D2DD70 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../0.png; sourceTree = "<group>"; };
+		24FFFDEF1EFB767300D2DD70 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../1.png; sourceTree = "<group>"; };
+		24FFFDF01EFB767300D2DD70 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../2.png; sourceTree = "<group>"; };
+		24FFFDF41EFB767D00D2DD70 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../3.png; sourceTree = "<group>"; };
+		C88E988E0E569CE4008517FC /* Pods-ZLLCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLLCycleScrollView/Pods-ZLLCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		F653AE49CA6393DE88847AA3 /* Pods-ZLLCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLLCycleScrollView/Pods-ZLLCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		FA06AFB3A5D69D7A77A78F8E /* libPods-ZLLCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLLCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24844F971EF7B92000C23E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527CCEC43558F3B1D2D7B334 /* libPods-ZLLCycleScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAA7EC51EFE6863000B69E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA7EC61EFE6864000B69E7 /* ZLLCycleScrollView.h */,
+				1CAA7EC71EFE6864000B69E7 /* ZLLCycleScrollView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		24844F911EF7B92000C23E08 = {
+			isa = PBXGroup;
+			children = (
+				24844F9C1EF7B92000C23E08 /* ZLLCycleScrollView */,
+				24844F9B1EF7B92000C23E08 /* Products */,
+				FD90DA1BE5DCAEF2C5481615 /* Pods */,
+				6D63D7A6C5667EB562984E10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24844F9B1EF7B92000C23E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24844F9A1EF7B92000C23E08 /* ZLLCycleScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24844F9C1EF7B92000C23E08 /* ZLLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA7EC51EFE6863000B69E7 /* Classes */,
+				24FFFDF71EFB799D00D2DD70 /* resources */,
+				24844FB71EF7BC3F00C23E08 /* ViewController.h */,
+				24844FB81EF7BC3F00C23E08 /* ViewController.m */,
+				24844FA01EF7B92000C23E08 /* AppDelegate.h */,
+				24844FA11EF7B92000C23E08 /* AppDelegate.m */,
+				24844FA61EF7B92000C23E08 /* Main.storyboard */,
+				24844FA91EF7B92000C23E08 /* Assets.xcassets */,
+				24844FAB1EF7B92000C23E08 /* LaunchScreen.storyboard */,
+				24844FAE1EF7B92000C23E08 /* Info.plist */,
+				24844F9D1EF7B92000C23E08 /* Supporting Files */,
+			);
+			path = ZLLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		24844F9D1EF7B92000C23E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24844F9E1EF7B92000C23E08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FFFDF71EFB799D00D2DD70 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				24844FBA1EF7BECB00C23E08 /* placeholder.png */,
+				24FFFDF41EFB767D00D2DD70 /* 3.png */,
+				24FFFDEE1EFB767300D2DD70 /* 0.png */,
+				24FFFDEF1EFB767300D2DD70 /* 1.png */,
+				24FFFDF01EFB767300D2DD70 /* 2.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6D63D7A6C5667EB562984E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA06AFB3A5D69D7A77A78F8E /* libPods-ZLLCycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD90DA1BE5DCAEF2C5481615 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F653AE49CA6393DE88847AA3 /* Pods-ZLLCycleScrollView.debug.xcconfig */,
+				C88E988E0E569CE4008517FC /* Pods-ZLLCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24844F991EF7B92000C23E08 /* ZLLCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24844FB11EF7B92000C23E08 /* Build configuration list for PBXNativeTarget "ZLLCycleScrollView" */;
+			buildPhases = (
+				9A86A8EB9717A979F190AD4B /* [CP] Check Pods Manifest.lock */,
+				24844F961EF7B92000C23E08 /* Sources */,
+				24844F971EF7B92000C23E08 /* Frameworks */,
+				24844F981EF7B92000C23E08 /* Resources */,
+				49424356B8ECC3091E95CCF5 /* [CP] Embed Pods Frameworks */,
+				F639E67EC352DC5CF1DCE5A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLLCycleScrollView;
+			productName = ZLLCycleScrollView;
+			productReference = 24844F9A1EF7B92000C23E08 /* ZLLCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24844F921EF7B92000C23E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张伶俐";
+				TargetAttributes = {
+					24844F991EF7B92000C23E08 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UHAHK6RVDM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24844F951EF7B92000C23E08 /* Build configuration list for PBXProject "ZLLCycleScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24844F911EF7B92000C23E08;
+			productRefGroup = 24844F9B1EF7B92000C23E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24844F991EF7B92000C23E08 /* ZLLCycleScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24844F981EF7B92000C23E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24844FAD1EF7B92000C23E08 /* LaunchScreen.storyboard in Resources */,
+				24FFFDF11EFB767300D2DD70 /* 0.png in Resources */,
+				24FFFDF31EFB767300D2DD70 /* 2.png in Resources */,
+				24FFFDF51EFB767D00D2DD70 /* 3.png in Resources */,
+				24844FBB1EF7BECB00C23E08 /* placeholder.png in Resources */,
+				24FFFDF21EFB767300D2DD70 /* 1.png in Resources */,
+				24844FAA1EF7B92000C23E08 /* Assets.xcassets in Resources */,
+				24844FA81EF7B92000C23E08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49424356B8ECC3091E95CCF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLLCycleScrollView/Pods-ZLLCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A86A8EB9717A979F190AD4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F639E67EC352DC5CF1DCE5A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLLCycleScrollView/Pods-ZLLCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24844F961EF7B92000C23E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24844FA21EF7B92000C23E08 /* AppDelegate.m in Sources */,
+				24844FB91EF7BC3F00C23E08 /* ViewController.m in Sources */,
+				24844F9F1EF7B92000C23E08 /* main.m in Sources */,
+				1CAA7EC81EFE6864000B69E7 /* ZLLCycleScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24844FA61EF7B92000C23E08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24844FA71EF7B92000C23E08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24844FAB1EF7B92000C23E08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24844FAC1EF7B92000C23E08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24844FAF1EF7B92000C23E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24844FB01EF7B92000C23E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24844FB21EF7B92000C23E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F653AE49CA6393DE88847AA3 /* Pods-ZLLCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHAHK6RVDM;
+				INFOPLIST_FILE = ZLLCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingli.ZLLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24844FB31EF7B92000C23E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88E988E0E569CE4008517FC /* Pods-ZLLCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UHAHK6RVDM;
+				INFOPLIST_FILE = ZLLCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lingli.ZLLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24844F951EF7B92000C23E08 /* Build configuration list for PBXProject "ZLLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24844FAF1EF7B92000C23E08 /* Debug */,
+				24844FB01EF7B92000C23E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24844FB11EF7B92000C23E08 /* Build configuration list for PBXNativeTarget "ZLLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24844FB21EF7B92000C23E08 /* Debug */,
+				24844FB31EF7B92000C23E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24844F921EF7B92000C23E08 /* Project object */;
+}
