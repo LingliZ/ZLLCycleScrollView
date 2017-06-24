@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZLLCycleScrollView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A cycle images lib for iOS base on ScrollView."
 
   # This description is used to generate tags and improve search results.
